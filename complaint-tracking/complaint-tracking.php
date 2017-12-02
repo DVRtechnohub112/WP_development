@@ -56,7 +56,7 @@ function deactivate_complaint_tracking() {
 }
 
 register_activation_hook( __FILE__, 'activate_complaint_tracking' );
-register_deactivation_hook( __FILE__, 'deactivate_complaint_tracking' );
+register_deactivation_hook( __FILE__, 'deactivate_complaint_tracking' ); 
 
 /**
  * The core plugin class that is used to define internationalization,
